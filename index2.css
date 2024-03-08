@@ -1,0 +1,817 @@
+
+
+body{
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+    background-size: 200%;
+    animation: ani2 5s linear infinite;
+}
+.aboutus{
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(207, 255, 207);
+    border-radius: 20px;
+}
+.useclaa{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(0, 80, 4, 0.548);
+    text-align: center;
+}
+
+@keyframes ani2 {
+        0%{
+            background-position: 0% 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position-y: 0% 50%;
+        }
+    
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 99vw;
+    height: 80px;
+    justify-content:space-between;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+    background-size: 200%;
+    box-shadow: 4px 4px 16px rgb(224, 224, 224);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+.headersh{
+    height: 85px;
+    width: 99vw;
+    background: linear-gradient(180deg, white, rgb(226, 226, 226) 100%);
+    z-index: 4;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.logo{
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    margin-top: 12px;
+    margin-left: 50px;
+}
+.logoimg{
+    width: 90;
+}
+.logoimg:hover{
+    width: 110px;
+}
+
+.Nav-Items > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.Nav-Items > ul > li{
+    padding : 15px;
+    margin-top: 20px;
+    list-style: none;
+    font-size: larger;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    user-select: none;
+    font-weight: 500;
+}
+.Nav-Items > ul > li :hover{
+    color: rgb(255, 123, 0);
+}
+
+.Logo-Container{
+    display: flex;
+}
+
+.company-Name{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 2.5rem;
+        user-select: none;
+        margin-top: 36px;
+}
+
+.be{
+    color : rgb(255, 102, 0);
+}
+.Foodyy{
+    color: rgb(58, 190, 58);
+}
+
+.Search-Bar{
+    width: 450px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(99, 182, 136);
+    background-color: rgb(255, 255, 255);
+}
+.Search-Barsh{
+    width: 450px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 201, 201);
+    background-color: rgb(255, 255, 255);
+}
+
+.Search-button{
+    height: 27px;
+    width: 60px;
+    background-color: rgb(231, 109, 9) !important;
+    border-radius: 5px;
+    color: white;
+    border: none !important;
+}
+
+.Search-buttonsh{
+    height: 27px;
+    width: 60px;
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 5px;
+    color: white;
+    border: none !important;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.39);
+}
+
+.rastaurantcard{
+    display: flexbox;
+    height: 310px;
+    width: 330px;
+    color: rgb(36, 20, 0);
+    border-radius: 10px;
+    font-family: 'Hubballi', sans-serif;
+    font-size: large;
+    font-weight: 300;
+    z-index: 0;
+}
+
+.Search-Bar:focus{
+    background-color: #ffffff;
+}
+.starRating{
+    background-color: rgb(0, 179, 0);
+    width: 50px;
+    height: 27px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: medium;
+    font-weight: 300;
+    color: white;
+}
+
+.slaString{
+    position: relative;
+    bottom: 80px;
+    left: 55px;
+    font-weight:900;
+    color: rgba(0, 0, 0, 0.87);
+    font-size:1.2rem;
+}
+
+.rastaurantcard:hover{
+    animation: ani1 100s ease-in 1;
+}
+
+ @keyframes ani1 {
+    0%{
+        height: 310px;
+        width: 330px;
+        font-size: 1.1rem;
+    }
+    0.08%{
+        height: 303px;
+        width: 330px;
+        font-size: 1.09rem;
+    }
+    100%{
+        height: 310px;
+        width: 330px;
+    }
+} 
+
+.rastaurantcard > p {
+    margin: 10px;
+}
+
+.food{
+    height: 220px;
+    background-size: cover;
+    border-radius: 20px;
+    background-position:left;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+.foodcenter{
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers{
+    height: 90px;
+    width: 330px;
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+    display: flex;
+    color: rgb(218, 218, 218);
+    justify-content:flex-start;
+    align-items:end;
+    font-weight: 600;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 10px ;
+    padding-bottom: 10px;
+}
+
+.offerssh{
+    height: 220px;
+    width: 350px;
+    background: linear-gradient(0deg, rgb(201, 201, 201), rgba(241, 241, 241, 0.877));
+    display: flex;
+    color: rgb(218, 218, 218);
+    justify-content: start;
+    align-items:end;
+    font-weight: 900;
+    font-family:cursive;
+    font-size: larger !important;
+    border-radius: 20px;
+    padding-left: 10px ;
+}
+.res-card{
+    height: 370px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.Restaurant-Card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 110px;
+    margin-top: -16px;
+}
+.Restaur{
+    margin-left: 115px;
+    margin-top: -13px;
+}
+.res{
+    font-size:x-large;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+
+
+button{
+    box-shadow: 1px 1px 4px rgb(0, 70, 49);
+    border: 1px solid white;
+}
+button:hover{
+    animation: ani3 100s ease infinite;
+    cursor: pointer;
+}
+
+
+@keyframes ani3 {
+    0%{
+        box-shadow: 1px 1px 4px rgba(0, 255, 0, 0.473);
+    }
+    0.03%{
+        box-shadow: 2px 2px 8px rgba(0, 255, 0, 0.753);
+    }
+    100%{
+        box-shadow: 1px 1px 4px rgba(0, 255, 0, 0.473);
+    }
+}
+
+.ser{
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+#clsbtn{
+    font-size: small;
+    color: #1d311abe;
+    text-align: center;
+    height: 20px;
+    width: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+    right: 125px;
+}
+
+#clsbtn:hover{
+    cursor: pointer;
+}
+
+.Loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: rgb(83, 29, 0);
+    height: 80vh;
+}
+
+.foodsh{
+    height: 220px;
+    width: 340px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: start;
+    align-items:end;
+}
+
+.starRatingsh{
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgb(201, 201, 201), rgba(241, 241, 241, 0.877));
+    width: 50px;
+    height: 27px;
+    text-align:center;
+    border-radius: 4px;
+    font-size: medium;
+    font-weight: 300;
+    border-radius: 10px;
+    color: rgba(181, 199, 182, 0.829);
+}
+
+.ressh{
+    height: 30px;
+    width: 300px;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgb(201, 201, 201), rgba(241, 241, 241, 0.877));
+}
+
+.topRassh{
+    height: 32px;
+    width: 12%;
+    border-radius: 20px;
+    border: none !important;
+    margin-left: 130px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgb(228, 228, 228), rgba(241, 241, 241, 0.877));
+    box-shadow: none;
+}
+
+.topRas{
+    height: 32px;
+    border-radius: 20px;
+    margin-left: 130px;
+    margin-top: 5px;
+    background-color: rgb(7, 214, 0);
+    border: none !important;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-weight:bolder;
+    box-shadow: 1px 1px 2px rgba(0, 128, 0, 0.473);
+}
+
+
+
+
+.hethele{
+    position: relative;
+    top: 1px;
+}
+.uperle{
+    font-size: larger;
+}
+.cuisines{
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgb(201, 201, 201), rgba(241, 241, 241, 0.877));
+    width: 250px;
+    height: 18px;
+    border-radius: 10px;
+}
+
+.cccc{
+    font-size:large !important;
+    font-weight: 900 !important;
+    color: rgba(0, 0, 0, 0.685);
+    height: 34px;
+}
+
+.loginth{
+    height: 30px;
+    width: 60px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px green;
+    text-align: center;
+    font-weight: 5rem;
+    text-shadow: none;
+}
+.loginth:hover{
+    text-shadow: none !important;
+}
+
+.slaStringsh{
+    position: relative;
+    bottom: 63px;
+    left: 55px;
+    border-radius: 10px;
+    font-weight: 700;
+    background: linear-gradient(0deg, rgb(201, 201, 201),rgba(241, 241, 241, 0.877));
+    width: 150px;
+}
+
+.uperlesh{
+    font-size: larger;
+    color: white;
+}
+
+a{
+    color: rgb(95, 95, 95);
+    text-decoration: none;
+}
+
+.mainmenu{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding-top: 20px;
+  color: rgb(255, 232, 223);
+  background-color:rgb(244, 255, 245);
+}
+.Search-buttonsh{
+    background: linear-gradient(0deg, rgba(241, 241, 241, 0.877), rgb(201, 201, 201));
+}
+
+.menu{
+    width: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.048);
+    border-radius: 30px;
+    background-color: rgb(240, 240, 240);
+}
+
+.menuResName{
+    font-size: 1.5rem;
+    color: rgb(255, 187, 0);
+    background-color: rgb(84, 122, 84);
+    height: 100px;
+    align-content: center;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.247);
+}
+
+.menuCuisines{
+    text-align: center;
+    margin-top: 20px;
+    height: 50px;
+    color: rgb(84, 122, 84);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.274);
+    border-top: 1px dashed rgba(0, 0, 0, 0.274);
+    background-color: rgba(255, 255, 255, 0.925);
+}
+
+.me{
+    font-size: 1.3rem;
+    font-weight: 900 !important;
+    text-align:center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.mein{
+    background-color: rgb(84, 122, 84);
+    width: 150px;
+    border-radius: 100px;
+}
+
+.distinct > ul{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+}
+.distinct >  ul > div > li {
+    list-style: none;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    margin-left: 10px;
+    font-size:large !important;
+    color: rgba(0, 0, 0, 0.685);
+}
+.distinct > ul > div {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 100px;
+    height: 140px;
+    margin-left: -30px;
+    width: 680px;
+}
+.distinct > ul > div > img {
+    width: 120px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.fop{
+    background-color: none;
+}
+
+
+.fixing{
+    margin-top: 100px;
+}
+
+.type{
+    font-size: larger;
+    user-select: none;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 640px;
+    height: 40px;
+    color: rgba(5, 12, 0, 0.842);
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 8px rgba(139, 139, 139, 0.308);
+    border-radius: 5px;
+    align-items: center;
+}
+
+
+.menubody{
+    width: 99vw;
+    margin-top: -20px;
+    background-color: white !important;
+}
+
+.items{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.menu-description{
+    font-size: 0.8rem;
+    color: rgb(167, 167, 167);
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+    font-weight: lighter;
+}
+
+
+.img{
+    width: 200px;
+    height: 200px;
+}
+
+.btt{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    left: 911px;
+    margin-top: 100px;
+    box-shadow: 2px 2px 8px white;
+    border: 1px solid rgb(194, 194, 194);
+    font-weight: 900;
+    color:rgb(37, 182, 37);
+}
+
+.btt1{
+    position: absolute;
+    left: 908px;
+}
+
+.type:hover{
+    cursor: pointer;
+    .dropdownbtn{
+        height: 15px;
+        width: 15px;
+    }
+}
+
+.dropdownbtn{
+    box-shadow: none;
+    background-color: none !important;
+    height: 12px;
+    width: 12px;
+}
+
+*::selection{
+    background: rgb(13, 126, 0);
+    color: white;
+}
+
+.drop{
+    width: 30px;
+    display: flex;
+    justify-content: center ;
+}
+ 
+img{
+    user-select: none !important;
+}
+ 
+
+ 
+.emptyCart{
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(167, 167, 167);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ 
+.emptyCart > h5 > a{
+    color: rgb(0, 56, 5);
+}
+ 
+.empty{
+    height: 300px;
+    width: 300px;
+}
+
+.clearout{
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.totalAmount{
+    position: relative;
+    bottom: 25px;
+    margin-left: 10px;
+    color: rgb(126, 126, 126);
+    font-size: larger;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+}
+.clearCart{
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 4px white;
+    border: 2px solid rgba(0, 0, 0, 0.39);
+}
+
+
+.aaj1{
+    padding-right: 10px;
+    width: 650px;
+    margin-left: 329px;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin-top: -10px !important;
+} 
+
+.btt1{
+    color: red;
+}
+
+.btt1:hover{
+    box-shadow: 2px 2px 16px rgba(255, 0, 0, 0.411) !important;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    font-weight: 700;
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/700.woff2") format("woff2"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/700.woff") format("woff"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/700.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: ProximaNova;
+    font-weight: 600;
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/600.woff2") format("woff2"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/600.woff") format("woff"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/600.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: ProximaNova;
+    font-weight: 500;
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/500.woff2") format("woff2"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/500.woff") format("woff"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/500.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: ProximaNova;
+    font-weight: 400;
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/400.woff2") format("woff2"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/400.woff") format("woff"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/400.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: ProximaNova;
+    font-weight: 300;
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/300.woff2") format("woff2"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/300.woff") format("woff"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/300.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: ProximaNovaBold;
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/bold.eot");
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/bold.eot?#iefix") format("embedded-opentype"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/bold.woff2") format("woff2"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/bold.woff") format("woff"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/bold.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: AsapCondensedSemiBold;
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/AsapCondensed-SemiBold.eot");
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/AsapCondensed-SemiBold.eot?#iefix") format("embedded-opentype"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/AsapCondensed-SemiBold.woff") format("woff"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/AsapCondensed-SemiBold.ttf") format("truetype"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/AsapCondensed-SemiBold.svg#AsapCondensedSemiBold") format("svg");
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: ProximaNovaCondensedBold;
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ProximaNovaCond-Bold.eot");
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ProximaNovaCond-Bold.eot?#iefix") format("embedded-opentype"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ProximaNovaCond-Bold.woff2") format("woff2"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ProximaNovaCond-Bold.woff") format("woff"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ProximaNovaCond-Bold.ttf") format("truetype");
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNovaBlack;
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/ProximaNovaBlack.woff2") format("woff2"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/ProximaNovaBlack.woff") format("woff"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/ProximaNovaBlack.ttf") format("truetype");
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNovaCondensedBlack;
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ProximaNovaCond-Black.woff2") format("woff2"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ProximaNovaCond-Black.woff") format("woff"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ProximaNovaCond-Black.ttf") format("truetype");
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNovaCondensedRegular;
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/ProximaNovaCondensedRegular.woff2") format("woff2"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/ProximaNovaCondensedRegular.woff") format("woff"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/ProximaNovaCondensedRegular.ttf") format("truetype");
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNovaExtraBold;
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/ProximaNovaBlack.woff2") format("woff2"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/ProximaNovaBlack.woff") format("woff"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/ProximaNovaExtraBold.ttf") format("truetype");
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNovaLight;
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/ProximaNovaLight.woff2") format("woff2"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/ProximaNovaLight.woff") format("woff"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/ProximaNovaLight.ttf") format("truetype");
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNovaSemiBold;
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/ProximaNovaSemiBold.woff2") format("woff2"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/ProximaNovaSemiBold.woff") format("woff"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ux3/ProximaNovaSemiBold.ttf") format("truetype");
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNovaCondensedExtraBold;
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ProximaNovaCond-Extrabld.woff2") format("woff2"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ProximaNovaCond-Extrabld.woff") format("woff"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ProximaNovaCond-Extrabld.ttf") format("truetype");
+    font-style: normal
+}
