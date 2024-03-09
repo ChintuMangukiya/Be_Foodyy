@@ -11,9 +11,7 @@ https://github.com/ChintuMangukiya/Be_Foodyy.git # zip_for-kru
 
 
 ## Our Website : 
-    
-    
-    more better UI
+
     ![image](https://github.com/ChintuMangukiya/Be_Foodyy/assets/161478865/ef22b19c-2c31-4dfb-bc22-242c53121a8d)
 
 
