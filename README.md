@@ -1,4 +1,4 @@
-# Namste-React
+# BE_FOODYY!!!
 https://github.com/ChintuMangukiya/Be_Foodyy.git # zip_for-kru
 
 
