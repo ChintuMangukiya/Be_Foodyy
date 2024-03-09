@@ -10,10 +10,12 @@ https://github.com/ChintuMangukiya/Be_Foodyy.git # zip_for-kru
     npm start   # To run main file
 
 
-## Our Website : 
+## Our Website :
 
-    ![image](https://github.com/ChintuMangukiya/Be_Foodyy/assets/161478865/ef22b19c-2c31-4dfb-bc22-242c53121a8d)
+  more better UI 
+   ![image](https://github.com/ChintuMangukiya/Be_Foodyy/assets/161478865/ef22b19c-2c31-4dfb-bc22-242c53121a8d)
 
+  separate 
 
 
     
