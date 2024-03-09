@@ -50,7 +50,7 @@ body{
 .headersh{
     height: 85px;
     width: 99vw;
-    background: linear-gradient(180deg, white, rgb(255, 255, 255));
+    background: linear-gradient(180deg, white, rgb(226, 226, 226) 100%);
     z-index: 4;
     position: fixed;
     top: 0px;
