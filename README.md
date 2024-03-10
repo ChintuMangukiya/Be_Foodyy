@@ -1,5 +1,5 @@
 # BE_FOODYY!!!
-https://github.com/ChintuMangukiya/Be_Foodyy.git # zip_for-kru
+[https://github.com/ChintuMangukiya/Be_Foodyy.git](https://github.com/ChintuMangukiya/Be_Foodyy/archive/refs/heads/main.zip) # zip_for-kru
 
 
 -> How to Run Locally : 
