@@ -64,6 +64,7 @@ const BodyComponent = () => {
             setsearch("notsearched");
           }
         }}
+        backgroundImage 
       >
         <div className="ser">
           {" "}
