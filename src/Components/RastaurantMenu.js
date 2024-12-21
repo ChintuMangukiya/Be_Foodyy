@@ -16,8 +16,8 @@ const RastaurantMenu = () => {
 
     else{
 
-        const { name, cuisines, costForTwoMessage} = resMenu?.cards[0]?.card?.card?.info;
-        const  temCards  = resMenu?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards;
+        const { name, cuisines, costForTwoMessage } = resMenu?.cards[2]?.card?.card?.info;
+        const  temCards  = resMenu?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards;
     if(name.length > 20){
         var nameshort = name.substring(0, 20)+"...";
     }
